@@ -9,7 +9,9 @@ Contestar a las preguntas en el propio readme. Cuando se pida un programa, se pu
 ¿Qué diferencia hay en una expresión booleana entre & y &&?
 ¿Y entre | y ||?
 Haz dos métodos booleanos que impriman algo en pantalla y un programa main que muestre la diferencia. Puedes hacer una prueba más creativa usando
+```java
 Thread.sleep(4000);
+```
 que recibe el número de milisegundos que espera el programa
 ¿Cuándo se usará uno u otro?
 
@@ -21,11 +23,12 @@ que recibe el número de milisegundos que espera el programa
 
 Crea un paquete llamado utilidades con una clase llamada Cadena con dos Métodos Estáticos:
 
-inicialEnMayúcula, que devuelve el String que se le pasa con el primer carácter en mayúsculas y el resto en minúsculas
-camelCase que devuelve las palabras (separadas por espacios) en camelCase (la primera palabra en minúsculas y el resto con la inicial en mayúsculas)
+* inicialEnMayúcula, que devuelve el String que se le pasa con el primer carácter en mayúsculas y el resto en minúsculas
+* camelCase que devuelve las palabras (separadas por espacios) en camelCase (la primera palabra en minúsculas y el resto con la inicial en mayúsculas)
+
 Crea, dentro de ese paquete llamado numeros con una clase llamada Numero con un  método Estático:
 
-esCuadradoPerfecto que devuelve si un entero que se le pasa es cuadrado perfecto (la raíz del número es un entero)
+* esCuadradoPerfecto que devuelve si un entero que se le pasa es cuadrado perfecto (la raíz del número es un entero)
 Crea un programa de ejemplo en otro paquete que importe y utilice esos métodos
 
 ## 3. Break y continue con etiquetas
@@ -44,22 +47,25 @@ Pon un programa de ejemplo de uso de break y/o continue con etiquetas
 
 Indica la signatura de los siguientes métodos de la clase Math y explica para qué sirve
 
+```java
 abs, max,min,pow,round
+```
 
 ## 6. Inicilizadores
 
-
+```java
 public class PruebaSleep {
-static{
-        System.out.println("Una cadena");
-    }
-    {
-        System.out.println("prueba");
-    }
-public static void main(String[] args) throws InterruptedException {
-        System.out.println("Numeros: 1 2 3");
-    }
+  static{
+    System.out.println("Una cadena");
+  }
+  {
+    System.out.println("prueba");
+  }
+  public static void main(String[] args) throws InterruptedException {
+    System.out.println("Numeros: 1 2 3");
+  }
 }
+```
 En el programa anterior, ¿Cuál es la salida?
 ¿Cómo conseguimos que se imprima prueba?
 
@@ -108,8 +114,9 @@ Busca un ejemplo de concatenación de cadenas con StringBuffer y otro con String
 ¿Qué diferencia hay entre los dos métodos?
 
 Usando el método 
-
+```java
 System.currentTimeMillis();
+```
 que devuelve el tiempo en milisegundos, crea un programa que muestre la diferencia en tiempo entre usar los tres métodos de concatenación (Se guarda el tiempo antes de efectuar una operación y al tiempo que se obtiene después de efectuar la operación se le resta el que habíamos guardado.)
 
 ¿Cuál es el que usaremos a partir de ahora?
