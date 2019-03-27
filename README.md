@@ -1,25 +1,36 @@
 # generalJava2019
 Apuntes generales sobre algunas cuestiones de Java
 
-# Resolver antes del viernes 25 de marzo de 2019, mencionándome en los commit
+## Resolver antes del viernes 25 de marzo de 2019, mencionándome en los commit
 Contestar a las preguntas en el propio readme. Cuando se pida un programa, se puede añadir al repositorio
 
 ## 1. Operadores Booleanos
 
 ¿Qué diferencia hay en una expresión booleana entre & y &&?
 ¿Y entre | y ||?
-Haz dos métodos booleanos que impriman algo en pantalla y un programa main que muestre la diferencia. Puedes hacer una prueba más creativa usando
-```java
+Haz dos métodos booleanos que impriman algo en pantalla y un programa main que muestre la diferencia. Puedes hacer una
+prueba más creativa usando
 Thread.sleep(4000);
-```
 que recibe el número de milisegundos que espera el programa
 ¿Cuándo se usará uno u otro?
+
+La diferencia entre & y && es que & siempre comprobará todas las condiciones aunque encuentre una falsa,
+mientras que && comprobará las condiciones una por una y si encuentra una falsa parará.
+
+Lo mismo pasa con | y || la diferencia entre ellos es que | comprobará todas las condiciones,
+mientras que || cuando encuentre una verdadera te devolverá true.
+
+Ej:
+
 
 ## 2. Packages
 
 ¿Qué es un package en Java?
+Un paquete en Java es un lugar el cual nos permite agrupar diferentes clases,y por tanto diferentes partes del programa.
 
 ¿Qué relación tiene con la sentencia import?
+Tiene relación con la sentencia import ya que es necesario importar primero el paquete para usar las clases que
+se encuentran dentro de él.
 
 Crea un paquete llamado utilidades con una clase llamada Cadena con dos Métodos Estáticos:
 
