@@ -1,3 +1,5 @@
+package utilidades;
+
 import javax.swing.*;
 
 public class Cadena {
@@ -24,10 +26,5 @@ public class Cadena {
         }
 
         return salida;
-    }
-
-    public static void main(String[] args){
-        System.out.println(inicialEnMayuscula("hola buenas tardes que tal estas"));
-        System.out.println(camelCase("hola buenas tardes"));
     }
 }
