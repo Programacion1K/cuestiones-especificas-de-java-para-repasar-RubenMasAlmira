@@ -20,7 +20,7 @@ mientras que && comprobará las condiciones una por una y si encuentra una falsa
 Lo mismo pasa con | y || la diferencia entre ellos es que | comprobará todas las condiciones,
 mientras que || cuando encuentre una verdadera te devolverá true.
 
-Ej:
+Ej:con metodos;
 
 
 ## 2. Packages
