@@ -58,13 +58,35 @@ Pon un programa de ejemplo de uso de break y/o continue con etiquetas
 
 Indica la signatura de los siguientes métodos de la clase Math y explica para qué sirve
 
-```java
-abs, max,min,pow,round
-```
+
+abs-Calcula el valor absoluto de un número
+    public static double abs(double a)
+    public static float abs(float a)
+    public static int abs(int a)
+    public static long abs(long a)
+
+max-Devuelve el mayor número que se le ha pasado como argumento
+    public static double max(double arg1, double arg2)
+    public static float max(float arg1, float arg2)
+    public static int max(int arg1, int arg2)
+    public static long max(long arg1, long arg2)
+
+min-Devuelve el menor número que se le ha pasado como argumento
+    public static double min(double arg1, double arg2)
+    public static float min(float arg1, float arg2)
+    public static int min(int arg1, int arg2)
+    public static long min(long arg1, long arg2)
+
+pow-Te permite realizar potencias,eleva el primer argumento al segundo
+    public static double pow(double base, double exponente)
+
+round-Redondea el número pasado como argumento
+    public static long round(double d)
+    public static int round(float f)
 
 ## 6. Inicilizadores
 
-```java
+
 public class PruebaSleep {
   static{
     System.out.println("Una cadena");
@@ -76,11 +98,14 @@ public class PruebaSleep {
     System.out.println("Numeros: 1 2 3");
   }
 }
-```
+
 En el programa anterior, ¿Cuál es la salida?
+    Una cadena
+    Numeros: 1 2 3
 ¿Cómo conseguimos que se imprima prueba?
 
 ¿Cuantas veces se imprimirá en un programa "Una Cadena"?
+Cada vez que se carge la clase,es decir,una vez.
 
 ¿Y "prueba"?
 
