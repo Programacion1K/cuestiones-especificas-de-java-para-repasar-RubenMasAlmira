@@ -92,8 +92,8 @@ public class PruebaSleep {
     System.out.println("Una cadena");
   }
   {
-    System.out.println("prueba");
-  }
+       System.out.println("prueba");
+     }
   public static void main(String[] args) throws InterruptedException {
     System.out.println("Numeros: 1 2 3");
   }
@@ -103,11 +103,11 @@ En el programa anterior, ¿Cuál es la salida?
     Una cadena
     Numeros: 1 2 3
 ¿Cómo conseguimos que se imprima prueba?
-
+    Cuando crees un objeto de la clase PruebaSleep
 ¿Cuantas veces se imprimirá en un programa "Una Cadena"?
-Cada vez que se carge la clase,es decir,una vez.
-
+    Cada vez que se carge la clase,es decir,una vez.
 ¿Y "prueba"?
+    Se imprimira tantas veces como objetos de la clase PruebaSleep crees.
 
 ## 7. Recolector
 
@@ -121,12 +121,24 @@ Cada vez que se carge la clase,es decir,una vez.
 ## 8. Wrappers
 
 ¿Qué son los Wrappers?
+    Los Wrappers son las clases de los datos primitivos.
 
 ¿Cuántos hay?
+    Hay 8,uno por cada tipo de dato primitivo.
 
 ¿Para qué sirven?
+    Los Wrappers sirven por ejmplo para usar los datos primitivos en estructuras de datos complejas como pueden ser las
+    listas,los mapas,los grupos y las colas.
 
 ¿Qué constructores tienen?
+    Byte(byte byte) .
+    Short (short short).
+    Integer (int integer)
+    Long (long long).
+    Boolean (boolean boolean).
+    Float (float float).
+    Double(double double)
+    Character (char character).
 
 ¿Para qué sirven los métodos xxxValue()?
 
