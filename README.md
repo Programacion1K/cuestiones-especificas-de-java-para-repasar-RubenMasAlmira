@@ -50,9 +50,12 @@ Pon un programa de ejemplo de uso de break y/o continue con etiquetas
 
 ¿Para qué sirve el método finalize() de la clase Object?
 
+
 ¿Cuándo es llamado?
 
+
 ¿Para qué se usa?
+
 
 ## 5. Métodos de la clase Math
 
@@ -110,13 +113,14 @@ En el programa anterior, ¿Cuál es la salida?
     Se imprimira tantas veces como objetos de la clase PruebaSleep crees.
 
 ## 7. Recolector
-
-
 ¿Para qué sirve System.gc()?
+Método que ejecuta el recolector de basuras del sistema.
 
 ¿Cuando se le llama?
+Cuando quieres eliminar los objetos que se han quedado sin referencia.
 
 ¿Qué nos asegura?
+
 
 ## 8. Wrappers
 
@@ -142,7 +146,13 @@ En el programa anterior, ¿Cuál es la salida?
 
 ¿Para qué sirven los métodos xxxValue()?
 
+
 ¿Para qué sirven y en qué se diferencian los métodos parseXxx y valueOf()?
+La diferencia es que valueOf() nos devuelve un nuevo objeto del tipo que sea
+mientras que parseXxx nos devuelve un valor primitivo.
+
+La principal diferencia entre el método valueOf() y el parseXxx es que mientras que el valueOf() nos devuelve un 
+nuevo objeto el método paseXxx nos devuelve un valor primitivo.
 
 ¿Qué es Boxing y Autoboxing?
 
@@ -154,12 +164,15 @@ Supón que el color es siempre correcto (con seis o tres dígitos headecimales)
 
 
 ¿Cómo hemos estado concatenado las cadenas durante el curso?
+Usando el operador +.
 
 ¿Qué inconvenientes tiene ese método?
+
 
 Busca un ejemplo de concatenación de cadenas con StringBuffer y otro con StringBuilder
 
 ¿Qué diferencia hay entre los dos métodos?
+La diferencia entre es que el StringBuilder es más rápido que el StringBuilder
 
 Usando el método 
 ```java
